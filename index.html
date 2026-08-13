@@ -53,11 +53,11 @@
   <dialog id="nightDialog"><div class="dhead"><h2>安排留宿侍寝</h2><button aria-label="关闭侍寝安排" onclick="closeDialog('nightDialog')">×</button></div><div id="nightBody" class="dbody"></div><div class="dfoot"><button onclick="closeDialog('nightDialog')">暂不安排</button><button class="primary" onclick="startNightVisit()">确认安排</button></div></dialog>
   <dialog id="nightReportDialog"><div class="dhead"><h2>留宿回报</h2><button aria-label="关闭留宿回报" onclick="closeDialog('nightReportDialog')">×</button></div><div id="nightReportBody" class="dbody"></div><div class="dfoot"><button class="primary" onclick="closeDialog('nightReportDialog')">收好回报</button></div></dialog>
   <dialog id="endingDialog"><div class="dhead"><h2 id="endingTitle">经营评定</h2></div><div id="endingBody" class="dbody"></div><div class="dfoot"><button onclick="deleteSave()">另起一局</button><button class="primary" onclick="closeDialog('endingDialog')">继续经营</button></div></dialog>
-  <dialog id="helpDialog"><div class="dhead"><h2>听雨楼掌柜手册</h2><button aria-label="关闭掌柜手册" onclick="closeDialog('helpDialog')">×</button></div><div class="dbody"><p><b>一、先看客人，再排节目。</b>文士爱清雅，商贾爱排场，游侠爱痛快，权贵看重体面。市场风向会改变不同节目与宾客的收益。</p><p><b>二、节目靠四项本事。</b>琴艺影响雅乐，舞艺影响歌舞，辞令影响曲艺与应变，待客决定席面满意。阵容互补往往比只堆一项更稳。</p><p><b>三、别把人用尽。</b>连续演出会掉体力。休整一旬恢复体力，研习一次会消耗银两与体力，并永久提升相应能力。</p><p><b>四、风情是第五门本事。</b>风情影响艳席、香宴与留宿礼金，可花钱研习。名望够了可办花魁夜宴：捧出一位花魁，全楼席面与她的留宿身价都会水涨船高。</p><p><b>五、留宿也是经营取舍。</b>侍寝只可安排成年、空闲且本人愿意的楼中人；红烛罗帐写到帐前为止，帐落之后只结算收益、人情与状态。它会占用一旬、支付分成并消耗体力和心绪，不能连续安排同一人。</p><p><b>六、恩客是双刃剑。</b>留宿之后，客人可能对某位楼中人上了心：痴迷的恩客月月孝敬、豪掷包场，但痴迷太深便会捧着重金上门求赎身——放不放人，是掌柜的取舍。</p><p><b>七、人情会留下。</b>每次散席与留宿都会改变宾客圈层的交情。扩建还需足够场次、名望与门路；八年后会给出一次名楼评定，但仍可继续经营。</p></div><div class="dfoot"><button class="primary" onclick="closeDialog('helpDialog')">记下了</button></div></dialog>
+  <dialog id="helpDialog"><div class="dhead"><h2>听雨楼掌柜手册</h2><button aria-label="关闭掌柜手册" onclick="closeDialog('helpDialog')">×</button></div><div class="dbody"><p><b>一、先看客人，再排节目。</b>文士爱清雅，商贾爱排场，游侠爱痛快，权贵看重体面。市场风向会改变不同节目与宾客的收益。</p><p><b>二、节目靠四项本事。</b>琴艺影响雅乐，舞艺影响歌舞，辞令影响曲艺与应变，待客决定席面满意。阵容互补往往比只堆一项更稳。</p><p><b>三、别把人用尽。</b>连续演出会掉体力。休整一旬恢复体力，研习一次会消耗银两与体力，并永久提升相应能力。</p><p><b>四、风情是第五门本事。</b>风情影响艳席、香宴与留宿礼金，可花钱研习。名望够了可办花魁夜宴：捧出一位花魁，全楼席面与她的留宿身价都会水涨船高。</p><p><b>五、留宿也是经营取舍。</b>侍寝只可安排成年、空闲且本人愿意的楼中人；红烛罗帐写到帐前为止，帐落之后只结算收益、人情与状态。它会占用一旬、支付分成并消耗体力和心绪，不能连续安排同一人。</p><p><b>六、恩客是双刃剑。</b>留宿之后，客人可能对某位楼中人上了心：痴迷的恩客月月孝敬、豪掷包场，但痴迷太深便会捧着重金上门求赎身——放不放人，是掌柜的取舍。</p><p><b>七、人情会留下。</b>每次散席与留宿都会改变宾客圈层的交情。扩建还需足够场次、名望与门路；八年后会给出一次名楼评定，但仍可继续经营。</p><p><b>八、对岸有座醉仙舫。</b>它的名望月月在涨：被压一头时席面回款最多折两成二，它还会挖角、打对台。赢下对台、办好花魁夜宴都能压它的声势；八年评定也要看这场对台之争的胜负。</p><p><b>九、风月招风。</b>艳席与留宿会积累“风纪注意”，攒多了官府登门查访——要么破财打点，要么名望扫地。想开销金窟，也得留一手体面。楼租还会逐年上涨，别把老本吃空。</p></div><div class="dfoot"><button class="primary" onclick="closeDialog('helpDialog')">记下了</button></div></dialog>
   <div id="toast" class="toast"></div>
 
   <script>
-  const KEY='tingyu_house_sim_v1',VERSION=3;
+  const KEY='tingyu_house_sim_v1',VERSION=4;
   const $=id=>document.getElementById(id),rnd=(a,b)=>Math.floor(Math.random()*(b-a+1))+a,clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
   const money=n=>(n<0?'-':'')+Math.abs(Math.round(n)).toLocaleString()+' 两';
   const safe=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -127,7 +127,7 @@
   function guardResolve(){S.program.quality+=6;addNews('护院周全','护院不动声色地平息了风波。');$('eventDialog').close();resume();save();render()}
   function finishProgram(){let p=S.program,def=programDefs.find(x=>x.id===p.defId),team=p.team.map(id=>S.staff.find(e=>e.id===id)).filter(Boolean),trend=S.trend.guest===def.guest?1.22:1,rel=1+Math.min(.28,(S.relations[def.guest]||0)/250),hall=halls[S.hall].base,facility=S.facilities.kitchen?1.08:1,score=clamp(4+p.quality/12+S.taste/28+(team.length-def.need)*.2,4.2,9.8),gross=Math.round(def.base*(.55+score/8)*trend*rel*hall*facility*(.9+Math.random()*.2)),profit=gross-p.cost;S.money+=gross;S.fame+=score>=8.5?3:score>=7.2?1.6:.6;S.taste+=def.type==='清雅'||def.type==='雅集'?score/7:score/12;S.network+=def.guest==='noble'?score/8:score/13;S.relations[def.guest]+=Math.round(score*(score>=8?1.5:1));S.streak=score>=7?S.streak+1:0;team.forEach(e=>{e.status=null;e.xp+=Math.round(score*8);if(e.xp>=100){e.xp-=100;e.level++;e.qin+=rnd(1,3);e.dance+=rnd(1,3);e.wit+=rnd(1,3);e.host+=rnd(1,3)}});let record={id:'r'+Date.now(),name:def.name,type:def.type,guest:def.guest,score,gross,cost:p.cost,profit,date:date(),team:team.map(e=>e.name)};S.records.unshift(record);S.program=null;addNews('宾主尽欢',`“${def.name}”以 ${score.toFixed(1)} 分散席，入账 ${money(gross)}。`);save();render();showReport(record.id,true)}
   function checkRisk(){if(S.ended)return;if(S.money<0)S.negative++;else S.negative=0;if(S.money<=-220||S.negative>=6){S.ended=true;pause();$('endingTitle').textContent='听雨楼易主';$('endingBody').innerHTML=`<p>连续亏空让听雨楼再也付不出月钱和楼租。旧招牌被债主摘下，这一局到此为止。</p><div class="hint">共办成 ${S.records.length} 场席面，最高名望 ${Math.round(S.fame)}。</div>`;$('endingDialog').showModal()}}
-  function showEnding(){S.evaluated=true;let value=Math.max(0,S.money+S.fame*18+S.taste*22+S.network*25+Object.values(S.relations).reduce((a,b)=>a+b,0)*3),grade=value>3800?'S':value>2600?'A':value>1600?'B':value>850?'C':'D';pause();$('endingDialog').dataset.resume='1';$('endingTitle').textContent='八年名楼评定';$('endingBody').innerHTML=`<div style="text-align:center;font-size:72px;color:var(--red);font-weight:900">${grade}</div><h2 style="text-align:center">听雨楼身价 ${money(value)}</h2><p>八年共办 ${S.records.length} 场席面，名望 ${Math.round(S.fame)}，雅誉 ${Math.round(S.taste)}，门路 ${Math.round(S.network)}。</p><div class="hint">评定结束后仍可继续经营，向更高的天下名楼迈进。</div>`;$('endingDialog').showModal()}
+  function showEnding(){S.evaluated=true;let duel=Math.round(Math.max(-150,Math.min(200,(S.fame-(S.rivalFame||0))*4))),value=Math.max(0,S.money+S.fame*18+S.taste*22+S.network*25+Object.values(S.relations).reduce((a,b)=>a+b,0)*3+duel),grade=value>3800?'S':value>2600?'A':value>1600?'B':value>850?'C':'D';pause();$('endingDialog').dataset.resume='1';$('endingTitle').textContent='八年名楼评定';$('endingBody').innerHTML=`<div style="text-align:center;font-size:72px;color:var(--red);font-weight:900">${grade}</div><h2 style="text-align:center">听雨楼身价 ${money(value)}</h2><p>八年共办 ${S.records.length} 场席面，名望 ${Math.round(S.fame)}，雅誉 ${Math.round(S.taste)}，门路 ${Math.round(S.network)}。</p><p>${S.fame>=(S.rivalFame||0)?`与醉仙舫的对台之争，终究是听雨楼胜了一头（+${money(Math.max(0,duel))} 身价）。`:`对岸醉仙舫至今仍压着听雨楼一头，身价折了 ${money(Math.abs(Math.min(0,duel)))}。`}</p><div class="hint">评定结束后仍可继续经营，向更高的天下名楼迈进。</div>`;$('endingDialog').showModal()}
 
   function showPage(page){currentPage=page;['home','programs','staff','guests','strategy'].forEach(x=>$(`page-${x}`).classList.toggle('hidden',x!==page));document.querySelectorAll('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===page));renderMain()}
   function statHtml(){let burn=S.staff.reduce((a,e)=>a+e.salary,0)+halls[S.hall].rent+8+S.staff.length*2;return `<div class="stats"><div class="card stat"><label>账上银两</label><b>${money(S.money)}</b><small>月固定支出 ${money(burn)}</small></div><div class="card stat"><label>坊间名望</label><b>${Math.round(S.fame)}</b><small>影响到访与传播</small></div><div class="card stat"><label>清雅声誉</label><b>${Math.round(S.taste)}</b><small>影响节目完成度</small></div><div class="card stat"><label>人情门路</label><b>${Math.round(S.network)}</b><small>影响权贵与扩张</small></div><div class="card stat"><label>楼中人手</label><b>${S.staff.length}/${halls[S.hall].cap}</b><small>${halls[S.hall].name}</small></div></div>`}
@@ -180,7 +180,7 @@
   }
   fresh=function(){
     let x=oldFresh();
-    x.version=VERSION;x.turn=0;x.flags={};x.deferred=[];x.nightVisit=null;x.nightRecords=[];x.admirers=[];x.huakui=null;
+    x.version=VERSION;x.turn=0;x.flags={};x.deferred=[];x.nightVisit=null;x.nightRecords=[];x.admirers=[];x.huakui=null;x.rivalFame=10;x.heat=0;
     x.staff.forEach(normalizeStaff);
     return x;
   };
@@ -192,9 +192,15 @@
     x.nightVisit=x.nightVisit||null;x.turn=Number.isFinite(x.turn)?x.turn:Math.max(0,((x.year||1)-1)*36+((x.month||1)-1)*3+(x.period||1)-1);
     x.branches=x.branches||[];x.streak=x.streak||0;x.negative=x.negative||0;
     x.admirers=x.admirers||[];x.huakui=x.huakui||null;
+    x.rivalFame=Number.isFinite(x.rivalFame)?x.rivalFame:10+((x.year||1)-1)*8;
+    x.heat=Number.isFinite(x.heat)?x.heat:0;
     if(upgraded&&!x.flags.v3Migrated){
       x.flags.v3Migrated=true;x.flags.v2Migrated=true;
       x.news.unshift({date:`第 ${x.year||1} 年 · ${x.month||1} 月${'上中下'[(x.period||1)-1]||'上'}旬`,type:'账册续修',text:'旧账册已续成新制：新增风情本事、花魁夜宴、艳席节目与恩客往来。'});
+    }
+    if(upgraded&&!x.flags.v4Migrated){
+      x.flags.v4Migrated=true;
+      x.news.unshift({date:`第 ${x.year||1} 年 · ${x.month||1} 月${'上中下'[(x.period||1)-1]||'上'}旬`,type:'坊间风声',text:'对岸新开一座醉仙舫，夜夜笙歌摆明抢客；官面上也开始留意各楼的风纪了。'});
     }
     x.version=VERSION;
     return x;
@@ -205,7 +211,7 @@
 
   function facilityUpkeep(){return facilities.reduce((n,f)=>n+(S.facilities[f.id]?f.upkeep:0),0)}
   monthly=function(){
-    let payroll=S.staff.reduce((a,e)=>a+e.salary,0),rent=halls[S.hall].rent,food=8+S.staff.length*2,upkeep=facilityUpkeep(),total=payroll+rent+food+upkeep;
+    let payroll=S.staff.reduce((a,e)=>a+e.salary,0),rent=rentOf(),food=8+S.staff.length*2,upkeep=facilityUpkeep(),total=payroll+rent+food+upkeep;
     S.money-=total;
     if(S.facilities.carriage){S.network+=1;S.money+=8}
     addNews('月度账目',`月钱 ${money(payroll)}、食宿 ${money(food)}、楼租 ${money(rent)}${upkeep?`、置办维护 ${money(upkeep)}`:''}，合计支出 ${money(total)}。`);
@@ -288,8 +294,8 @@
   };
   guardResolve=function(){S.program.quality+=6;addNews('护院周全','护院不动声色地平息了风波。');activeEvent=null;$('eventDialog').close();resume();save();render()};
   finishProgram=function(){
-    let p=S.program,def=programDefs.find(x=>x.id===p.defId),team=p.team.map(id=>S.staff.find(e=>e.id===id)).filter(Boolean),trend=S.trend.guest===def.guest?1.22:1,rel=1+Math.min(.28,(S.relations[def.guest]||0)/250),hall=halls[S.hall].base,facility=S.facilities.kitchen?1.08:1,hk=S.huakui&&p.team.includes(S.huakui)?1.1:S.huakui?1.04:1,score=clamp(4+p.quality/12+S.taste/28+(team.length-def.need)*.2,4.2,9.8),gross=Math.round(def.base*(.55+score/8)*trend*rel*hall*facility*hk*.58*(.9+Math.random()*.2)),profit=gross-p.cost;
-    S.money+=gross;S.fame+=score>=8.5?3:score>=7.2?1.6:.6;let tasteGain=def.type==='清雅'||def.type==='雅集'?score/7:score/12;if(S.facilities.garden&&(def.type==='清雅'||def.type==='雅集'))tasteGain*=1.2;if(def.type==='艳席'||def.type==='香宴'){S.taste=Math.max(0,S.taste-.6);S.fame+=.6}S.taste+=tasteGain;S.network+=def.guest==='noble'?score/8:score/13;S.relations[def.guest]+=Math.round(score*(score>=8?1.5:1));S.streak=score>=7?S.streak+1:0;
+    let p=S.program,def=programDefs.find(x=>x.id===p.defId),team=p.team.map(id=>S.staff.find(e=>e.id===id)).filter(Boolean),trend=S.trend.guest===def.guest?1.22:1,rel=1+Math.min(.28,(S.relations[def.guest]||0)/250),hall=halls[S.hall].base,facility=S.facilities.kitchen?1.08:1,hk=S.huakui&&p.team.includes(S.huakui)?1.1:S.huakui?1.04:1,press=1-clamp(((S.rivalFame||0)-S.fame)/150,0,.22),score=clamp(4+p.quality/12+S.taste/28+(team.length-def.need)*.2,4.2,9.8),gross=Math.round(def.base*(.55+score/8)*trend*rel*hall*facility*hk*press*.58*(.9+Math.random()*.2)),profit=gross-p.cost;
+    S.money+=gross;S.fame+=score>=8.5?3:score>=7.2?1.6:.6;let tasteGain=def.type==='清雅'||def.type==='雅集'?score/7:score/12;if(S.facilities.garden&&(def.type==='清雅'||def.type==='雅集'))tasteGain*=1.2;if(def.type==='艳席'||def.type==='香宴'){S.taste=Math.max(0,S.taste-.6);S.fame+=.6;S.heat=(S.heat||0)+2}S.taste+=tasteGain;S.network+=def.guest==='noble'?score/8:score/13;S.relations[def.guest]+=Math.round(score*(score>=8?1.5:1));S.streak=score>=7?S.streak+1:0;
     team.forEach(e=>{e.status=null;e.mood=clamp(e.mood+(score>=8?3:1),0,100);e.xp+=Math.round(score*8);if(e.xp>=100){e.xp-=100;e.level++;e.qin+=rnd(1,3);e.dance+=rnd(1,3);e.wit+=rnd(1,3);e.host+=rnd(1,3)}});
     let record={id:'r'+Date.now(),name:def.name,type:def.type,guest:def.guest,score,gross,cost:p.cost,profit,date:date(),team:team.map(e=>e.name)};S.records.unshift(record);S.program=null;addNews('宾主尽欢',`“${def.name}”以 ${score.toFixed(1)} 分散席，入账 ${money(gross)}。`);save();render();showReport(record.id,true);
   };
@@ -332,6 +338,7 @@
     S.money+=net;S.relations[n.guest]+=relation;if(n.guest==='noble')S.network+=.5;
     e.energy=clamp(e.energy-18,0,100);e.mood=clamp(e.mood-(preferred?5:8),0,100);e.bond+=preferred?2:1;e.nightCooldown=preferred?2:3;e.status=null;
     if(Math.random()<.35)e.charm=clamp(e.charm+1,15,100);
+    S.heat=(S.heat||0)+1;
     let record={id:n.id,staffId:e.id,staff:e.name,guest:n.guest,gross,share,net,relation,date:date(),preferred,vignette:nightVignettes[rnd(0,nightVignettes.length-1)]};S.nightRecords.unshift(record);S.nightRecords=S.nightRecords.slice(0,20);S.nightVisit=null;
     if(preferred)scheduleConsequence(2,'留宿回礼',`${guestDefs[n.guest].name}托人送来一份薄礼，附一张只写了“再会”二字的花笺，特意问候${e.name}。`,{money:12,guest:n.guest,relation:1},`night_gift_${record.id}`);
     else scheduleConsequence(2,'留宿余音',`${e.name}与这一路宾客不算投契，坊间没有坏话，只是需要多歇一歇。`,{taste:-.5},`night_echo_${record.id}`);
@@ -417,10 +424,10 @@
     let e=S.staff.find(x=>x.id===id);if(!e)return;
     if(S.money<200)return toast('银两不够。');
     S.money-=200;S.flags['huakui_y'+S.year]=true;
-    let score=e.charm*.5+e.dance*.2+e.qin*.15+e.wit*.1+S.taste/4+rnd(0,18),rival=56+S.year*2+rnd(0,14);
+    let score=e.charm*.5+e.dance*.2+e.qin*.15+e.wit*.1+S.taste/4+rnd(0,18),rival=Math.max(56+S.year*2,40+(S.rivalFame||10)*.75)+rnd(0,14);
     $('eventDialog').close();resume();
     if(score>=rival){
-      S.huakui=e.id;S.fame+=8;S.taste+=3;e.mood=clamp(e.mood+10,0,100);e.charm=clamp(e.charm+3,15,100);
+      S.huakui=e.id;S.fame+=8;S.taste+=3;S.rivalFame=Math.max(5,(S.rivalFame||10)-4);e.mood=clamp(e.mood+10,0,100);e.charm=clamp(e.charm+3,15,100);
       addNews('花魁夺魁',`${e.name}一曲舞罢满堂掷花，摘下今岁花魁。此后请帖如雪，满城都想一睹芳容。`);
       toast(`${e.name}夺得花魁！`);
     }else{
@@ -436,7 +443,7 @@
     let r=S.nightRecords[0];return r?`<div class="event-card"><span class="tag">最近留宿</span><h3>${safe(r.staff)} · ${guestDefs[r.guest].name}</h3><p>楼中净得 ${money(r.net)}，圈层交情 +${r.relation}。<br><button onclick="showNightReport('${r.id}')">查看回报</button></p></div>`:'';
   }
 
-  statHtml=function(){let burn=S.staff.reduce((a,e)=>a+e.salary,0)+halls[S.hall].rent+8+S.staff.length*2+facilityUpkeep();return `<div class="stats"><div class="card stat"><label>账上银两</label><b>${money(S.money)}</b><small>月固定支出 ${money(burn)}</small></div><div class="card stat"><label>坊间名望</label><b>${Math.round(S.fame)}</b><small>影响到访与传播</small></div><div class="card stat"><label>清雅声誉</label><b>${Math.round(S.taste)}</b><small>影响节目完成度</small></div><div class="card stat"><label>人情门路</label><b>${Math.round(S.network)}</b><small>影响权贵与扩张</small></div><div class="card stat"><label>楼中人手</label><b>${S.staff.length}/${halls[S.hall].cap}</b><small>${halls[S.hall].name}</small></div></div>`};
+  statHtml=function(){let burn=S.staff.reduce((a,e)=>a+e.salary,0)+rentOf()+8+S.staff.length*2+facilityUpkeep(),heat=Math.round(S.heat||0);return `<div class="stats"><div class="card stat"><label>账上银两</label><b>${money(S.money)}</b><small>月固定支出 ${money(burn)}（楼租逐年涨）</small></div><div class="card stat"><label>坊间名望</label><b>${Math.round(S.fame)}</b><small>对台醉仙舫 ${Math.round(S.rivalFame||0)}${(S.rivalFame||0)>S.fame?' · 被压一头':''}</small></div><div class="card stat"><label>清雅声誉</label><b>${Math.round(S.taste)}</b><small>风纪注意 ${heat}${heat>=9?' · 官府侧目':heat>=6?' · 有些风声':''}</small></div><div class="card stat"><label>人情门路</label><b>${Math.round(S.network)}</b><small>影响权贵与扩张</small></div><div class="card stat"><label>楼中人手</label><b>${S.staff.length}/${halls[S.hall].cap}</b><small>${halls[S.hall].name}</small></div></div>`};
   renderHome=function(){$('page-home').innerHTML=statHtml()+`<div class="hall"><section class="card hall-scene"><div class="scene-head"><div><b>${halls[S.hall].name}</b><br><small>${S.program?`正在筹备“${programDefs.find(x=>x.id===S.program.defId).name}”`:S.nightVisit?'今夜已有留宿安排':'今夜尚未排定节目'}</small></div><span class="tag">${S.hall+1} 阶楼业</span></div><div class="scene-bottom"><b>${S.program?'灯火已上，环佩叮当，楼中人各自忙碌':S.nightVisit?'客帖已收，深处那间房留了一盏灯':'檐雨新歇，胭脂香里歌台正等着开场'}</b><p>${S.program?'节目每旬自动推进，半程会出现需要掌柜抉择的风波。':S.nightVisit?'帐前的事写到帐前，帐后的账留给掌柜结。':'白日排节目养艺人，夜里也可点一对红烛，安排一场留宿。'}</p></div></section><div class="dashboard"><section class="card section"><h2>今夜看板</h2>${S.program?programCard():'<div class="empty">没有正在筹备的席面<br><br><button class="primary" onclick="showPage(\'programs\')">去节目坊排一场</button></div>'}${nightBoard()}</section><section class="card section"><h2>掌柜快办</h2><div class="quick"><button onclick="showPage('programs')">安排节目</button><button onclick="openRecruit()">牙行荐人</button><button onclick="restAll()">轮番休整</button><button onclick="advance(1)">推进一旬</button><button class="wide" ${S.nightVisit?'disabled':''} onclick="openNightDialog()">安排留宿侍寝</button></div></section></div></div>`};
   renderStaff=function(){$('page-staff').innerHTML=statHtml()+`<section class="card section"><div class="split"><h2 class="grow">楼中艺人${S.huakui?` <span class="tag red">花魁：${safe(S.staff.find(x=>x.id===S.huakui)?.name||'')}</span>`:''}</h2><div class="staff-actions"><button onclick="openHuakui()">办花魁夜宴</button><button onclick="openNightDialog()">安排留宿</button><button onclick="openRecruit()">＋ 牙行荐人</button></div></div>${S.staff.map(e=>staffHtml(e)).join('')}</section>`};
   staffHtml=function(e){normalizeStaff(e);let img=e.portrait?`<img class="portrait" src="${e.portrait}" alt="${safe(e.name)}立绘">`:`<div class="avatar">${safe(e.name[0])}</div>`;return `<div class="staff">${img}<main><h3>${safe(e.name)} <span class="tag">${roleNames[e.role]||'艺人'} Lv.${e.level}</span>${S.huakui===e.id?' <span class="tag red">花魁</span>':''}</h3><p>${e.trait} · 琴 ${e.qin} / 舞 ${e.dance} / 辞 ${e.wit} / 客 ${e.host} / 媚 ${e.charm}</p><div class="energy"><i style="width:${e.energy}%"></i></div><p>体力 ${e.energy} · 心绪 ${e.mood} · ${statusText(e)}</p></main><aside>月钱 ${money(e.salary)}<br><button onclick="openPerson(${e.id})">查看 / 安排</button></aside></div>`};
@@ -452,6 +459,55 @@
     while(candidates.length<3){let name=names[rnd(0,names.length-1)];if(used.has(name))continue;used.add(name);let roles=['qin','dance','story','pipa','opera'],role=roles[rnd(0,roles.length-1)],core=role==='qin'||role==='pipa'?'qin':role==='dance'||role==='opera'?'dance':'wit',e={id:Date.now()+rnd(1,999999),name,role,level:1,trait:['沉静自持','妙语连珠','肯下苦功','眼明心细','台风极稳'][rnd(0,4)],traitText:'新来的艺人尚需在席面中证明自己',qin:rnd(30,58),dance:rnd(30,58),wit:rnd(30,58),host:rnd(32,62),charm:rnd(32,66),energy:100,mood:72,salary:rnd(7,11),status:null,portrait:null,xp:0,adult:true,bond:0,nightCooldown:0,nightPreference:preferenceFor(role)};e[core]+=rnd(18,28);if(role==='dance'||role==='opera')e.charm+=rnd(6,16);e.signing=e.salary*rnd(3,5);candidates.push(e)}
     renderCandidates();save();render();
   };
+
+  /* 第三批：对台醉仙舫与官府风纪 */
+  function rentOf(){return Math.round(halls[S.hall].rent*(1+.08*(S.year-1)))}
+  const baseMonthly3=monthly;
+  monthly=function(){
+    baseMonthly3();
+    S.heat=Math.max(0,(S.heat||0)-1);
+    S.rivalFame=(S.rivalFame||10)+.7+S.year*.25+rnd(0,6)/10;
+    if(S.heat>=12)return inspectionEvent();
+    let roll=Math.random();
+    if(roll<.1)poachEvent();
+    else if(roll<.2)duelEvent();
+    else if(roll<.28)addNews('对台风声',S.rivalFame>S.fame?`对岸醉仙舫夜夜笙歌，风头正盖过听雨楼（名望 ${Math.round(S.rivalFame)} 对 ${Math.round(S.fame)}），席面回款难免受累。`:'坊间都说醉仙舫近来冷清了些，画舫的客人多半渡河来了听雨楼。');
+  };
+  function poachEvent(){
+    let targets=S.staff.filter(e=>e.id>4&&!e.status);
+    if(!targets.length)return;
+    let e=targets[rnd(0,targets.length-1)],keep=e.salary*6;
+    pause();
+    $('eventTitle').textContent='醉仙舫挖角';
+    $('eventBody').innerHTML=`<p>醉仙舫的妈妈桑亲自渡河，递上重礼，想把${safe(e.name)}挖过河去，许了双倍月钱、独门小院。她捏着帖子没说话，等掌柜一句话。</p><button class="choice" onclick="keepStaff(${e.id},${keep})">加薪挽留<small>花 ${money(keep)}，月钱 +2，心绪大好</small></button><button class="choice" onclick="loseStaff(${e.id})">由她去吧<small>${safe(e.name)}离楼，醉仙舫声势更盛</small></button>`;
+    $('eventDialog').showModal();
+  }
+  function keepStaff(id,cost){let e=S.staff.find(x=>x.id===id);if(!e)return;if(S.money<cost)return toast('银两不够，挽留不住。');S.money-=cost;e.salary+=2;e.mood=clamp(e.mood+10,0,100);e.bond+=2;addNews('重金挽留',`${e.name}当面烧了醉仙舫的帖子：“我在听雨楼待惯了。”`);$('eventDialog').close();resume();save();render()}
+  function loseStaff(id){let e=S.staff.find(x=>x.id===id);if(!e)return;S.staff=S.staff.filter(x=>x.id!==id);S.admirers=S.admirers.filter(a=>a.staffId!==id);if(S.huakui===id)S.huakui=null;S.rivalFame=(S.rivalFame||10)+3;addNews('对台挖角',`${e.name}渡河去了醉仙舫，坊间足足议论了半个月。`);$('eventDialog').close();resume();save();render()}
+  function duelEvent(){
+    pause();
+    $('eventTitle').textContent='醉仙舫打对台';
+    $('eventBody').innerHTML=`<p>醉仙舫择了同一夜大开华宴，摆明要抢客。满城都在看两家楼，谁的灯先熄。</p><button class="choice" onclick="duelFight()">正面迎战<small>花 ${money(40)}，胜则名望大涨、压醉仙舫一头；败则失些颜面</small></button><button class="choice" onclick="duelYield()">避其锋芒<small>不花钱，闭门办清茶雅集（雅誉 +1），醉仙舫声势 +2</small></button>`;
+    $('eventDialog').showModal();
+  }
+  function duelFight(){
+    if(S.money<40)return toast('银两不够，摆不开场面。');
+    S.money-=40;
+    let best=Math.max(...S.staff.map(e=>e.charm*.5+e.dance*.3+e.qin*.2))+S.taste/3+(S.huakui?8:0)+rnd(0,15),foe=30+(S.rivalFame||10)*.7+rnd(0,15);
+    if(best>=foe){S.fame+=5;S.rivalFame=Math.max(5,S.rivalFame-3);addNews('对台大胜','听雨楼灯火到三更未歇，醉仙舫的客人半途都渡了河。名望 +5。')}
+    else{S.fame=Math.max(0,S.fame-2);S.rivalFame+=2;addNews('对台失利','这一夜醉仙舫棋高一着，听雨楼门前冷清了些。名望 -2。')}
+    $('eventDialog').close();resume();save();render();
+  }
+  function duelYield(){S.rivalFame=(S.rivalFame||10)+2;S.taste+=1;addNews('避其锋芒','听雨楼当夜闭门办了场清茶雅集，风头让给对岸，倒也落了个雅字。');$('eventDialog').close();resume();save();render()}
+  function inspectionEvent(){
+    pause();
+    let cost=30+Math.round(S.heat*3);
+    $('eventTitle').textContent='官府查访';
+    $('eventBody').innerHTML=`<p>艳席连开、夜夜留宿，风声终究传到了官面上。巡检带着两班差役到了门口，说要进楼“看看规矩”。</p><button class="choice" onclick="bribeOfficial(${cost})">备礼打点<small>花 ${money(cost)}，风纪注意减半，体面保住</small></button><button class="choice" onclick="endureOfficial()">开门任查<small>不花钱：名望 -5、权贵交情 -3，风纪清零</small></button>`;
+    $('eventDialog').showModal();
+  }
+  function bribeOfficial(cost){if(S.money<cost)return toast('银两不够打点。');S.money-=cost;S.heat=Math.round(S.heat/2);addNews('打点周全',`一份“茶水钱”送出去，巡检在门口喝了盏茶便走了。花费 ${money(cost)}。`);$('eventDialog').close();resume();save();render()}
+  function endureOfficial(){S.fame=Math.max(0,S.fame-5);S.relations.noble=Math.max(0,(S.relations.noble||0)-3);S.heat=0;addNews('官府查楼','差役里里外外翻了个遍，虽没查出大错，体面终究扫了地。名望 -5。');$('eventDialog').close();resume();save();render()}
 
   $('continueBtn').disabled=!load();
   window.addEventListener('beforeunload',save);

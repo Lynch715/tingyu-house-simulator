@@ -23,23 +23,27 @@ const document={
 const store=new Map();
 const localStorage={getItem:k=>store.get(k)??null,setItem:(k,v)=>store.set(k,v),removeItem:k=>store.delete(k)};
 const window={addEventListener(){}};
-const build=new Function('document','localStorage','window','confirm',`${source}\nreturn {fresh,migrate,monthly,facilityUpkeep,pause,resume,setSpeed,nightEstimate,processNightVisit,processDeferred,processAdmirers,maybeSmitten,hallRequirement,unlock,programDefs,setState:v=>S=v,getState:()=>S,getSpeed:()=>speed};`);
+const build=new Function('document','localStorage','window','confirm',`${source}\nreturn {fresh,migrate,monthly,facilityUpkeep,pause,resume,setSpeed,nightEstimate,processNightVisit,processDeferred,processAdmirers,maybeSmitten,hallRequirement,unlock,programDefs,rentOf,bribeOfficial,getEl:id=>document.getElementById(id),setState:v=>S=v,getState:()=>S,getSpeed:()=>speed};`);
 const game=build(document,localStorage,window,()=>true);
 
 let state=game.fresh();
-assert.equal(state.version,3);
+assert.equal(state.version,4);
 assert.deepEqual(state.deferred,[]);
 assert.deepEqual(state.admirers,[]);
 assert.equal(state.huakui,null);
+assert.equal(state.rivalFame,10);
+assert.equal(state.heat,0);
 assert.equal(state.staff.every(e=>e.adult&&Number.isFinite(e.mood)&&Number.isFinite(e.charm)),true);
 
 const legacy=structuredClone(state);
 legacy.version=2;
-delete legacy.admirers;delete legacy.huakui;
+delete legacy.admirers;delete legacy.huakui;delete legacy.rivalFame;delete legacy.heat;
 legacy.staff.forEach(e=>{delete e.charm});
 const migrated=game.migrate(legacy);
-assert.equal(migrated.version,3);
+assert.equal(migrated.version,4);
 assert.equal(migrated.flags.v3Migrated,true);
+assert.equal(migrated.flags.v4Migrated,true);
+assert.ok(Number.isFinite(migrated.rivalFame)&&migrated.heat===0,'迁移旧档应补齐对台与风纪字段');
 assert.deepEqual(migrated.admirers,[]);
 assert.equal(migrated.staff.every(e=>Number.isFinite(e.charm)&&e.charm>=15&&e.charm<=100),true,'迁移旧档应补齐风情属性');
 
@@ -48,7 +52,7 @@ veryOld.version=1;
 delete veryOld.turn;delete veryOld.flags;delete veryOld.deferred;delete veryOld.nightRecords;delete veryOld.admirers;delete veryOld.huakui;
 veryOld.staff.forEach(e=>{delete e.mood;delete e.adult;delete e.nightCooldown;delete e.charm});
 const migrated1=game.migrate(veryOld);
-assert.equal(migrated1.version,3);
+assert.equal(migrated1.version,4);
 assert.equal(migrated1.staff.every(e=>e.adult&&e.mood===72),true);
 
 game.setState(state);
@@ -74,6 +78,7 @@ assert.equal(state.nightVisit,null);
 assert.equal(state.nightRecords.length,1);
 assert.ok(state.money>beforeNight);
 assert.ok(state.nightRecords[0].net>=28&&state.nightRecords[0].net<=42,'单旬留宿净收益应低于轮换刷钱阈值');
+assert.equal(state.heat,1,'留宿应积累 1 点风纪注意');
 assert.ok(actor.nightCooldown>=2);
 assert.equal(actor.status,null);
 assert.equal(state.deferred.length,1);
@@ -126,5 +131,31 @@ const star=state.staff[2];star.charm=95;
 for(let i=0;i<60;i++)game.maybeSmitten(star,'merchant',true);
 assert.ok(state.admirers.length<=1,'同一人同一圈层只应有一位恩客');
 if(state.admirers.length)assert.ok(state.admirers[0].level<=7,'痴迷等级封顶 7');
+
+// 楼租逐年上涨
+state=game.fresh();
+game.setState(state);
+assert.equal(game.rentOf(),22,'第一年楼租不变');
+state.year=5;
+assert.equal(game.rentOf(),29,'第五年楼租应涨约 32%');
+
+// 醉仙舫名望月月上涨，被压一头有据可查
+state=game.fresh();
+game.setState(state);
+const rivalBefore=state.rivalFame;
+game.monthly();
+assert.ok(state.rivalFame>rivalBefore,'醉仙舫名望应逐月增长');
+
+// 风纪攒满触发官府查访，打点后减半
+state=game.fresh();
+game.setState(state);
+state.heat=13;state.money=500;
+game.getEl('eventDialog').open=false;
+game.monthly(); // 衰减到 12，仍达查访线
+assert.equal(game.getEl('eventDialog').open,true,'风纪≥12 应触发官府查访');
+const bribeMoney=state.money;
+game.bribeOfficial(66);
+assert.equal(state.money,bribeMoney-66);
+assert.equal(state.heat,6,'打点后风纪减半');
 
 console.log('engine tests passed');
