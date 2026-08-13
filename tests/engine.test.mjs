@@ -23,22 +23,33 @@ const document={
 const store=new Map();
 const localStorage={getItem:k=>store.get(k)??null,setItem:(k,v)=>store.set(k,v),removeItem:k=>store.delete(k)};
 const window={addEventListener(){}};
-const build=new Function('document','localStorage','window','confirm',`${source}\nreturn {fresh,migrate,monthly,facilityUpkeep,pause,resume,setSpeed,nightEstimate,processNightVisit,processDeferred,hallRequirement,setState:v=>S=v,getState:()=>S,getSpeed:()=>speed};`);
+const build=new Function('document','localStorage','window','confirm',`${source}\nreturn {fresh,migrate,monthly,facilityUpkeep,pause,resume,setSpeed,nightEstimate,processNightVisit,processDeferred,processAdmirers,maybeSmitten,hallRequirement,unlock,programDefs,setState:v=>S=v,getState:()=>S,getSpeed:()=>speed};`);
 const game=build(document,localStorage,window,()=>true);
 
 let state=game.fresh();
-assert.equal(state.version,2);
+assert.equal(state.version,3);
 assert.deepEqual(state.deferred,[]);
-assert.equal(state.staff.every(e=>e.adult&&Number.isFinite(e.mood)),true);
+assert.deepEqual(state.admirers,[]);
+assert.equal(state.huakui,null);
+assert.equal(state.staff.every(e=>e.adult&&Number.isFinite(e.mood)&&Number.isFinite(e.charm)),true);
 
 const legacy=structuredClone(state);
-legacy.version=1;
-delete legacy.turn;delete legacy.flags;delete legacy.deferred;delete legacy.nightRecords;
-legacy.staff.forEach(e=>{delete e.mood;delete e.adult;delete e.nightCooldown});
+legacy.version=2;
+delete legacy.admirers;delete legacy.huakui;
+legacy.staff.forEach(e=>{delete e.charm});
 const migrated=game.migrate(legacy);
-assert.equal(migrated.version,2);
-assert.equal(migrated.flags.v2Migrated,true);
-assert.equal(migrated.staff.every(e=>e.adult&&e.mood===72),true);
+assert.equal(migrated.version,3);
+assert.equal(migrated.flags.v3Migrated,true);
+assert.deepEqual(migrated.admirers,[]);
+assert.equal(migrated.staff.every(e=>Number.isFinite(e.charm)&&e.charm>=15&&e.charm<=100),true,'迁移旧档应补齐风情属性');
+
+const veryOld=structuredClone(state);
+veryOld.version=1;
+delete veryOld.turn;delete veryOld.flags;delete veryOld.deferred;delete veryOld.nightRecords;delete veryOld.admirers;delete veryOld.huakui;
+veryOld.staff.forEach(e=>{delete e.mood;delete e.adult;delete e.nightCooldown;delete e.charm});
+const migrated1=game.migrate(veryOld);
+assert.equal(migrated1.version,3);
+assert.equal(migrated1.staff.every(e=>e.adult&&e.mood===72),true);
 
 game.setState(state);
 game.setSpeed(0);game.pause();game.resume();
@@ -76,5 +87,44 @@ game.setState(state);
 assert.equal(game.hallRequirement(0).ok,false);
 state.records=Array.from({length:4},(_,i)=>({id:i}));state.fame=12;
 assert.equal(game.hallRequirement(0).ok,true);
+
+// 花魁加成应提高留宿身价
+state=game.fresh();
+game.setState(state);
+const dancer=state.staff.find(e=>e.name==='柳如烟');
+const plain=game.nightEstimate(dancer,'merchant');
+state.huakui=dancer.id;
+const crowned=game.nightEstimate(dancer,'merchant');
+assert.ok(crowned>plain*1.2&&crowned<plain*1.4,'花魁留宿身价应有约 1.3 倍加成');
+
+// 艳席解锁门槛
+state=game.fresh();
+game.setState(state);
+const wine=game.programDefs.find(p=>p.id==='wine'),spring=game.programDefs.find(p=>p.id==='spring');
+assert.equal(game.unlock(wine),false,'名望不足时艳席不可办');
+state.fame=10;
+assert.equal(game.unlock(wine),true);
+assert.equal(game.unlock(spring),false);
+state.huakui=1;
+assert.equal(game.unlock(spring),true,'有花魁即可办牡丹春宵夜');
+
+// 恩客孝敬与包场只增不减，且无恩客时不动账
+state=game.fresh();
+game.setState(state);
+const idleMoney=state.money;
+game.processAdmirers();
+assert.equal(state.money,idleMoney,'无恩客时不应有孝敬入账');
+state.admirers=[{id:'a1',staffId:3,guest:'merchant',level:2,asked:false,name:'绸缎庄周东家'}];
+const before=state.money;
+game.processAdmirers();
+assert.ok(state.money>=before+12,'恩客月度孝敬应入账');
+
+// 留宿后有几率产生恩客（用高风情多次采样验证不报错且等级封顶）
+state=game.fresh();
+game.setState(state);
+const star=state.staff[2];star.charm=95;
+for(let i=0;i<60;i++)game.maybeSmitten(star,'merchant',true);
+assert.ok(state.admirers.length<=1,'同一人同一圈层只应有一位恩客');
+if(state.admirers.length)assert.ok(state.admirers[0].level<=7,'痴迷等级封顶 7');
 
 console.log('engine tests passed');
