@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>听雨楼 UI 审计轮播</title>
+<style>
+  body{margin:0;background:#222;color:#fff;font-family:-apple-system,sans-serif;overflow:hidden}
+  #bar{height:44px;display:flex;align-items:center;gap:16px;padding:0 16px;background:#000;font-size:15px}
+  #bar b{color:#ffd77e;font-size:18px}
+  #stage{display:flex;gap:10px;padding:10px;align-items:flex-start}
+  .frame{background:#000;position:relative}
+  .frame small{position:absolute;top:-0;left:0;z-index:2;background:#c00;color:#fff;padding:2px 8px;font-size:12px}
+  iframe{border:0;background:#fff;transform-origin:top left}
+  #desk{width:1280px;height:900px;transform:scale(.62)}
+  .frame.desk{width:794px;height:558px;overflow:hidden}
+  #mob{width:390px;height:844px;transform:scale(.78)}
+  .frame.mob{width:305px;height:659px;overflow:hidden}
+</style>
+</head>
+<body>
+<div id="bar">听雨楼 UI 审计 <b id="label">—</b> <span id="idx"></span> <span>每 6 秒切换</span></div>
+<div id="stage">
+  <div class="frame desk"><small>桌面 1280px</small><iframe id="desk"></iframe></div>
+  <div class="frame mob"><small>手机 390px</small><iframe id="mob"></iframe></div>
+</div>
+<script>
+const views=['start','home','programs','staff','guests','strategy','help','program','recruit','person','night','nightreport','report','event','huakui','redeem','inspect','ending'];
+let i=0;
+function show(){
+  const v=views[i];
+  document.getElementById('label').textContent=v;
+  document.getElementById('idx').textContent=`${i+1} / ${views.length}`;
+  document.getElementById('desk').src=`../index.html?audit=${v}&t=${Date.now()}`;
+  document.getElementById('mob').src=`../index.html?audit=${v}&m=${Date.now()}`;
+  i=(i+1)%views.length;
+}
+show();
+setInterval(show,6000);
+</script>
+</body>
+</html>
