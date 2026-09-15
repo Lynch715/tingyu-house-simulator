@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#110f0d">
   <title>开个青楼 · 听雨楼</title><!-- V2.3.2 -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="icon/icon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon/icon-180.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="apple-mobile-web-app-title" content="听雨楼">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <style>
     :root{--ink:#2c241c;--muted:#7a6b5a;--paper:#f5ead2;--paper2:#fff9ed;--line:#cfb98e;--red:#7d2928;--red2:#a8413a;--gold:#c39a4a;--gold2:#efcd7a;--teal:#183d3c;--green:#3b7454;--night:#120f0d;--shadow:0 14px 34px #22170e2b}
     *{box-sizing:border-box}html,body{margin:0;min-height:100%;overflow-x:hidden;font-family:"Songti SC","STSong","Noto Serif SC","PingFang SC",serif;color:var(--ink);background:#d9ccb4}button,input,select{font:inherit}button{cursor:pointer;min-height:44px;color:inherit}button:disabled{cursor:not-allowed;opacity:.45}.hidden{display:none!important}
@@ -22,6 +30,13 @@
     @media(max-width:1160px){.layout{grid-template-columns:180px 1fr}.right{display:none}.resource:nth-child(n+4){display:none}.stats{grid-template-columns:repeat(3,1fr)}}
     @media(max-width:780px){.topbar{height:66px;padding:0 8px;gap:7px}.brand{min-width:0}.brand>div{display:none}.resourcebar{display:none}.clock{font-size:11px;flex:1}.clock small{display:none}.clock b{font-size:12px;white-space:nowrap}.timectl{gap:3px}.timectl .auto{min-width:34px;padding:4px 4px;font-size:11px}.timectl .step{padding:6px 9px;white-space:nowrap}.layout{display:block;padding:8px 8px calc(80px + env(safe-area-inset-bottom))}.side{display:none}.stats{grid-template-columns:1fr 1fr}.stats>.stat:last-child:nth-child(odd){grid-column:1/-1}.stat{padding:9px}.stat b{font-size:16px}.hall{grid-template-columns:1fr}.hall-scene{min-height:330px}.program-grid,.facility-grid,.record-grid{grid-template-columns:1fr}.form,.picks{grid-template-columns:1fr}.staff{grid-template-columns:59px minmax(0,1fr)}.portrait,.avatar{width:55px;height:70px}.staff aside{grid-column:2;text-align:left}.staff aside button{min-width:112px}.quality{grid-template-columns:1fr 1fr}.crow{grid-template-columns:40px 70px 36px 1fr}.figure{width:48px;margin-bottom:64px}.figure img,.figure .avatar{width:48px;height:62px}.bubble{width:120px;font-size:10px}.scene-bottom p{display:none}.section>.split{flex-wrap:wrap;align-items:flex-start}#page-staff .section>.split>h2{flex-basis:100%}#page-staff .staff-actions{display:grid;grid-template-columns:1fr 1fr;width:100%}#page-strategy .section>.split>.primary{width:100%}.actions-grid{grid-template-columns:1fr}.bottomnav{position:fixed;display:grid;grid-template-columns:repeat(6,1fr);left:0;right:0;bottom:0;z-index:40;padding:4px 2px calc(4px + env(safe-area-inset-bottom));background:#171411;border-top:2px solid var(--gold)}.bottomnav button{display:grid;place-items:center;align-content:center;gap:2px;min-width:0;min-height:56px;padding:3px 1px;border:0;color:#c8b9a5;background:transparent;box-shadow:none;font-size:11px}.bottomnav button span{display:block;height:24px;font-family:serif;font-size:16px;line-height:24px}.bottomnav .ico{width:24px;height:24px}.bottomnav button b{font-size:11px;line-height:1.1}.bottomnav button.active{color:#ffd77e}.toast{bottom:calc(70px + env(safe-area-inset-bottom))}dialog{width:calc(100% - 16px);max-height:calc(100dvh - 16px)}.dhead,.dfoot{padding:10px 12px}.dhead h2{font-size:20px}.dbody{padding:14px}.dfoot{align-items:stretch}.dfoot button{flex:1;min-width:0}.start{padding:14px}.start-card{padding:37px 25px}.start p{font-size:15px}}
     @media(max-width:365px){.brand{width:39px;flex:none}.clock{display:none}.hall-scene{min-height:285px}.start-card{padding:34px 21px}.start .actions{display:grid;grid-template-columns:1fr 1fr}.start .actions button{width:100%;min-width:0}.start .actions button:last-child{grid-column:1/-1}.metrics{grid-template-columns:1fr 1fr}}
+    .pwa-banner{position:fixed;z-index:70;left:50%;bottom:20px;transform:translateX(-50%);width:min(420px,calc(100% - 24px));padding:14px 16px;display:flex;align-items:center;gap:12px;color:#f4e5cf;background:linear-gradient(135deg,#1b1815,#2a1e19);border:1px solid var(--gold);box-shadow:0 20px 60px #000a}
+    .pwa-banner.hidden{display:none}
+    .pwa-banner b{display:block;margin-bottom:2px}
+    .pwa-banner small{color:#cdbb9a;display:block;line-height:1.5}
+    .pwa-banner .row{display:flex;gap:8px;margin-left:auto;flex:none}
+    .pwa-banner button{min-height:38px;padding:6px 12px}
+    @media(max-width:420px){.pwa-banner{flex-direction:column;align-items:stretch}.pwa-banner .row{margin-left:0}.pwa-banner .row button{flex:1}}
   </style>
 </head>
 <body>
@@ -42,7 +57,7 @@
       <div class="timectl"><button class="auto" data-auto="0" onclick="setAuto(0)">手动</button><button class="auto" data-auto="1" onclick="setAuto(1)">自动</button><button class="auto" data-auto="2" onclick="setAuto(2)">快</button><button class="primary step" onclick="advance(1)">过一旬 ›</button></div>
     </header>
     <div class="layout">
-      <aside class="side card"><button class="nav active" data-page="home" onclick="showPage('home')"><img class="ico nav" src="assets/新图/图标_楼里.webp" alt="" onerror="this.replaceWith('◉')">楼里</button><button class="nav" data-page="programs" onclick="showPage('programs')"><img class="ico nav" src="assets/新图/图标_排场子.webp" alt="" onerror="this.replaceWith('▱')">排场子</button><button class="nav" data-page="staff" onclick="showPage('staff')"><img class="ico nav" src="assets/新图/图标_人.webp" alt="" onerror="this.replaceWith('♟')">楼里的人</button><button class="nav" data-page="guests" onclick="showPage('guests')"><img class="ico nav" src="assets/新图/图标_客人.webp" alt="" onerror="this.replaceWith('✦')">客人</button><button class="nav" data-page="strategy" onclick="showPage('strategy')"><img class="ico nav" src="assets/新图/图标_添东西.webp" alt="" onerror="this.replaceWith('⌂')">添东西</button><button class="nav" data-page="codex" onclick="showPage('codex')"><img class="ico nav" src="assets/新图/图标_风月谱.webp" alt="" onerror="this.replaceWith('▤')">风月谱</button><hr><button class="nav" onclick="manualSave()">存 记一下账</button><button class="nav" onclick="deleteSave()">× 烧掉账本</button><div class="mini">点右上角「过一旬」往前走，一个月三旬。月底扣月钱、饭钱和楼租。开了自动就不用一直点。</div></aside>
+      <aside class="side card"><button class="nav active" data-page="home" onclick="showPage('home')"><img class="ico nav" src="assets/新图/图标_楼里.webp" alt="" onerror="this.replaceWith('◉')">楼里</button><button class="nav" data-page="programs" onclick="showPage('programs')"><img class="ico nav" src="assets/新图/图标_排场子.webp" alt="" onerror="this.replaceWith('▱')">排场子</button><button class="nav" data-page="staff" onclick="showPage('staff')"><img class="ico nav" src="assets/新图/图标_人.webp" alt="" onerror="this.replaceWith('♟')">楼里的人</button><button class="nav" data-page="guests" onclick="showPage('guests')"><img class="ico nav" src="assets/新图/图标_客人.webp" alt="" onerror="this.replaceWith('✦')">客人</button><button class="nav" data-page="strategy" onclick="showPage('strategy')"><img class="ico nav" src="assets/新图/图标_添东西.webp" alt="" onerror="this.replaceWith('⌂')">添东西</button><button class="nav" data-page="codex" onclick="showPage('codex')"><img class="ico nav" src="assets/新图/图标_风月谱.webp" alt="" onerror="this.replaceWith('▤')">风月谱</button><hr><button class="nav" onclick="pwaManualOffer()">⇩ 装到桌面</button><button class="nav" onclick="manualSave()">存 记一下账</button><button class="nav" onclick="deleteSave()">× 烧掉账本</button><div class="mini">点右上角「过一旬」往前走，一个月三旬。月底扣月钱、饭钱和楼租。开了自动就不用一直点。</div></aside>
       <main><div id="page-home"></div><div id="page-programs" class="hidden"></div><div id="page-staff" class="hidden"></div><div id="page-guests" class="hidden"></div><div id="page-strategy" class="hidden"></div><div id="page-codex" class="hidden"></div></main>
       <aside class="right"><section id="trendPanel" class="card panel trend"></section><section class="card panel"><h3>楼里的事</h3><div id="newsFeed" class="feed"></div></section></aside>
     </div>
@@ -736,6 +751,94 @@
       inspect(){S.heat=13;EVENTS.inspection()},poach(){S.staff.push(normStaff({id:98,name:'温照影',role:'qin',qin:60,dance:40,wit:40,host:50,salary:8}));EVENTS.poach()},duel(){EVENTS.duel()},
       ending(){S.rivalFame=60;EVENTS.ending()},bankrupt(){EVENTS.bankrupt()}};
     (prep[view]||prep.home)();
+  })();
+  </script>
+  <div id="pwaBanner" class="pwa-banner hidden"></div>
+  <script>
+  (function(){
+    var KEY='tingyu_pwa_install';
+    var deferredPrompt=null, armed=false, reloading=false;
+    var ua=navigator.userAgent;
+    var isSafari=/Safari/.test(ua)&&!/Chrome|Chromium|Edg|OPR/.test(ua);
+    var isIOS=/iPad|iPhone|iPod/.test(ua);
+    var standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+
+    function banner(){return document.getElementById('pwaBanner')}
+
+    function renderOffer(){
+      var b=banner(); if(!b) return;
+      if(isSafari){
+        b.innerHTML='<div><b>装到'+(isIOS?'主屏幕':'程序坞')+'，像 App 一样开</b><small>'+(isIOS?'点下面工具栏的分享按钮 → 添加到主屏幕':'菜单栏「文件」→「添加到程序坞」')+'</small></div><div class="row"><button class="ghost" onclick="pwaDismiss()">知道了</button></div>';
+      }else if(deferredPrompt){
+        b.innerHTML='<div><b>装到桌面，像 App 一样开</b><small>装完能离线玩，不用每次开浏览器找网址</small></div><div class="row"><button class="ghost" onclick="pwaDismiss()">以后再说</button><button class="gold" onclick="pwaInstall()">装到桌面</button></div>';
+      }else{
+        return;
+      }
+      b.classList.remove('hidden');
+    }
+
+    window.pwaInstall=async function(){
+      var b=banner();
+      if(!deferredPrompt){if(b)b.classList.add('hidden');return}
+      deferredPrompt.prompt();
+      var r=await deferredPrompt.userChoice;
+      deferredPrompt=null;
+      localStorage.setItem(KEY, r.outcome==='accepted'?'installed':'dismissed');
+      if(b)b.classList.add('hidden');
+    };
+    window.pwaDismiss=function(){localStorage.setItem(KEY,'dismissed');var b=banner();if(b)b.classList.add('hidden')};
+    window.pwaManualOffer=function(){
+      if(standalone){pwaToast('已经是桌面版了，不用再装');return}
+      if(!isSafari&&!deferredPrompt){pwaToast('这个浏览器暂不支持一键安装，可用 Chrome 打开试试');return}
+      renderOffer();
+    };
+    function pwaToast(msg){
+      if(typeof toast==='function'){try{toast(msg);return}catch(e){}}
+      alert(msg);
+    }
+
+    function armOffer(){
+      if(armed||standalone) return;
+      var st=localStorage.getItem(KEY);
+      if(st==='dismissed'||st==='installed') return;
+      armed=true;
+      setTimeout(renderOffer, 45000);
+    }
+
+    addEventListener('beforeinstallprompt', function(e){e.preventDefault();deferredPrompt=e;armOffer()});
+    addEventListener('appinstalled', function(){localStorage.setItem(KEY,'installed');var b=banner();if(b)b.classList.add('hidden')});
+    if(isSafari) addEventListener('load', armOffer);
+
+    if(location.protocol.indexOf('http')===0 && 'serviceWorker' in navigator){
+      addEventListener('load', function(){
+        navigator.serviceWorker.register('./sw.js').then(function(reg){
+          reg.addEventListener('updatefound', function(){
+            var nw=reg.installing;
+            if(!nw) return;
+            nw.addEventListener('statechange', function(){
+              if(nw.state==='installed' && navigator.serviceWorker.controller){
+                showUpdateToast(reg);
+              }
+            });
+          });
+        }).catch(function(){});
+        navigator.serviceWorker.addEventListener('controllerchange', function(){
+          if(reloading) return; reloading=true; location.reload();
+        });
+      });
+    }
+
+    function showUpdateToast(reg){
+      var b=banner(); if(!b) return;
+      window.__pwaWaitingReg=reg;
+      b.innerHTML='<div><b>有新版本了</b><small>点一下刷新，接着玩</small></div><div class="row"><button class="gold" onclick="pwaApplyUpdate()">刷新</button></div>';
+      b.classList.remove('hidden');
+    }
+    window.pwaApplyUpdate=function(){
+      var reg=window.__pwaWaitingReg;
+      if(reg&&reg.waiting) reg.waiting.postMessage('skipWaiting');
+      var b=banner(); if(b) b.classList.add('hidden');
+    };
   })();
   </script>
 </body>
