@@ -1,0 +1,530 @@
+[
+  {
+    "name": "场景_临河旧楼.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "transparent_pixels": 0,
+    "bytes": 3396485
+  },
+  {
+    "name": "场景_双层画阁.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "transparent_pixels": 0,
+    "bytes": 3695599
+  },
+  {
+    "name": "场景_听雨十二院.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "transparent_pixels": 0,
+    "bytes": 3763346
+  },
+  {
+    "name": "场景_上元灯会.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "transparent_pixels": 0,
+    "bytes": 3610810
+  },
+  {
+    "name": "场景_花朝节.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "transparent_pixels": 0,
+    "bytes": 3549352
+  },
+  {
+    "name": "场景_年关.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "transparent_pixels": 0,
+    "bytes": 3415326
+  },
+  {
+    "name": "立绘_琴师_01_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 405899,
+    "bytes": 2691770
+  },
+  {
+    "name": "立绘_琴师_02_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 469915,
+    "bytes": 2449275
+  },
+  {
+    "name": "立绘_琴师_03_男.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 407797,
+    "bytes": 2609350
+  },
+  {
+    "name": "立绘_舞师_01_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 437604,
+    "bytes": 2656160
+  },
+  {
+    "name": "立绘_舞师_02_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 397224,
+    "bytes": 2679618
+  },
+  {
+    "name": "立绘_舞师_03_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 389775,
+    "bytes": 2750682
+  },
+  {
+    "name": "立绘_舞师_04_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 400611,
+    "bytes": 2603907
+  },
+  {
+    "name": "立绘_清客_01_男.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 441269,
+    "bytes": 2391968
+  },
+  {
+    "name": "立绘_清客_02_男.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 426268,
+    "bytes": 2474778
+  },
+  {
+    "name": "立绘_清客_03_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 400494,
+    "bytes": 2582943
+  },
+  {
+    "name": "立绘_乐师_01_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 356926,
+    "bytes": 2572720
+  },
+  {
+    "name": "立绘_乐师_02_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 427301,
+    "bytes": 2452412
+  },
+  {
+    "name": "立绘_乐师_03_男.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 512804,
+    "bytes": 2384719
+  },
+  {
+    "name": "立绘_伶人_01_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 431426,
+    "bytes": 2661411
+  },
+  {
+    "name": "立绘_伶人_02_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 467437,
+    "bytes": 2535264
+  },
+  {
+    "name": "立绘_伶人_03_男.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 395914,
+    "bytes": 2652988
+  },
+  {
+    "name": "立绘_账房_01_男.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 460667,
+    "bytes": 2318192
+  },
+  {
+    "name": "立绘_管事_01_男.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 594372,
+    "bytes": 2055205
+  },
+  {
+    "name": "立绘_茶博士_01_女.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 551608,
+    "bytes": 2202262
+  },
+  {
+    "name": "老客_文士_01.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 471468,
+    "bytes": 2522914
+  },
+  {
+    "name": "老客_文士_02.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 419277,
+    "bytes": 2441532
+  },
+  {
+    "name": "老客_商贾_01.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 425159,
+    "bytes": 2569653
+  },
+  {
+    "name": "老客_商贾_02.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 410735,
+    "bytes": 2583952
+  },
+  {
+    "name": "老客_游侠_01.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 524308,
+    "bytes": 2343256
+  },
+  {
+    "name": "老客_游侠_02.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 330102,
+    "bytes": 2696296
+  },
+  {
+    "name": "老客_权贵_01.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 371983,
+    "bytes": 2621622
+  },
+  {
+    "name": "老客_权贵_02.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 547622,
+    "bytes": 2043069
+  },
+  {
+    "name": "npc_醉仙舫妈妈桑.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 420561,
+    "bytes": 2416755
+  },
+  {
+    "name": "npc_醉仙舫头牌.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 406048,
+    "bytes": 2632925
+  },
+  {
+    "name": "npc_巡检.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 519708,
+    "bytes": 2266264
+  },
+  {
+    "name": "评客_文士_白先生.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 463448,
+    "bytes": 2564692
+  },
+  {
+    "name": "评客_商贾_钱东家.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 423942,
+    "bytes": 2605124
+  },
+  {
+    "name": "评客_游侠_铁大哥.png",
+    "size": [
+      1000,
+      1500
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 363457,
+    "bytes": 2718305
+  }
+]

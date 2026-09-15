@@ -1,0 +1,538 @@
+[
+  {
+    "name": "评客_权贵_王公子.png",
+    "desc": "28岁贵族男子，金冠玉带，深绯锦袍，挑剔",
+    "w": 1000,
+    "h": 1500,
+    "kind": "portrait",
+    "prompt": "Generate ONE production game art PNG asset 评客_权贵_王公子.png, canvas 1000x1500. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 28岁贵族男子，金冠玉带，深绯锦袍，挑剔. Adult character only, clearly mature age 25-55, fully clothed. 2:3 portrait, centered half to three-quarter body, front or three-quarter view, headroom, expressive individual face, detailed anatomy, warm lantern edge lighting. TRUE TRANSPARENT BACKGROUND, isolated character and necessary held props only, no scenery, no checkerboard painted into image. No text, no watermark."
+  },
+  {
+    "name": "节目_潇湘夜雨.png",
+    "desc": "雨夜小阁，一人抚琴，两三个文人闭眼听",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_潇湘夜雨.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 雨夜小阁，一人抚琴，两三个文人闭眼听. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "节目_灯影霓裳.png",
+    "desc": "满台灯光，几个成年女舞者长袖飞舞",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_灯影霓裳.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 满台灯光，几个成年女舞者长袖飞舞. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "节目_长街奇谈.png",
+    "desc": "说书人拍醒木，一圈人围听，有人拍桌",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_长街奇谈.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 说书人拍醒木，一圈人围听，有人拍桌. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "节目_曲水诗会.png",
+    "desc": "院子流水漂酒杯，文人举笔",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_曲水诗会.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 院子流水漂酒杯，文人举笔. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "节目_金谷华宴.png",
+    "desc": "长桌大宴，权贵满座，金器满桌",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_金谷华宴.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 长桌大宴，权贵满座，金器满桌. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "节目_快意江湖夜.png",
+    "desc": "大碗酒，鼓，有人舞剑",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_快意江湖夜.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 大碗酒，鼓，有人舞剑. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "节目_兰亭私宴.png",
+    "desc": "小室，两三位贵客，一人弹琴，安静讲究",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_兰亭私宴.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 小室，两三位贵客，一人弹琴，安静讲究. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "节目_十二花神会.png",
+    "desc": "大场面，十二位成年花神装扮女舞者，全楼灯火",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_十二花神会.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 大场面，十二位成年花神装扮女舞者，全楼灯火. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "节目_红袖侍酒宴.png",
+    "desc": "完整古装的成熟女侍者在酒桌边为成年商人斟酒，商人眯眼笑，只画到酒桌，雅致宴饮",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_红袖侍酒宴.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 完整古装的成熟女侍者在酒桌边为成年商人斟酒，商人眯眼笑，只画到酒桌，雅致宴饮. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "节目_醉卧美人膝.png",
+    "desc": "成年游侠完整着装，侧躺枕在成年女子膝上听她讲故事，女子完整古装端坐，旁边酒坛，温柔非露骨叙事",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_醉卧美人膝.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 成年游侠完整着装，侧躺枕在成年女子膝上听她讲故事，女子完整古装端坐，旁边酒坛，温柔非露骨叙事. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "节目_牡丹春宵夜.png",
+    "desc": "重帘半垂，暖灯半暗，牡丹盛开，远处仅两位完整古装成年人的坐姿剪影，静谧含蓄，无裸露无性行为",
+    "w": 1200,
+    "h": 900,
+    "kind": "program",
+    "prompt": "Generate ONE production game art PNG asset 节目_牡丹春宵夜.png, canvas 1200x900. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 重帘半垂，暖灯半暗，牡丹盛开，远处仅两位完整古装成年人的坐姿剪影，静谧含蓄，无裸露无性行为. 4:3 landscape narrative scene, all people adults, fully clothed, non-explicit. Performance in progress, wide view, atmosphere emphasized over faces, rainy night warm lanterns. Opaque. No text, no UI, no watermark."
+  },
+  {
+    "name": "图标_银子.png",
+    "desc": "元宝",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_银子.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 元宝. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_名声.png",
+    "desc": "灯笼",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_名声.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 灯笼. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_格调.png",
+    "desc": "梅枝",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_格调.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 梅枝. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_门路.png",
+    "desc": "空白名帖",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_门路.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 空白名帖. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_琴艺.png",
+    "desc": "古琴",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_琴艺.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 古琴. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_舞艺.png",
+    "desc": "水袖",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_舞艺.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 水袖. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_口才.png",
+    "desc": "折扇",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_口才.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 折扇. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_待客.png",
+    "desc": "茶壶",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_待客.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 茶壶. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_风情.png",
+    "desc": "胭脂盒",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_风情.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 胭脂盒. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_文士.png",
+    "desc": "书卷",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_文士.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 书卷. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_商贾.png",
+    "desc": "算盘",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_商贾.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 算盘. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_游侠.png",
+    "desc": "刀",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_游侠.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 刀. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_权贵.png",
+    "desc": "玉佩",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_权贵.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 玉佩. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_好听.png",
+    "desc": "琴弦音符",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_好听.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 琴弦音符. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_好看.png",
+    "desc": "花",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_好看.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 花. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_撩人.png",
+    "desc": "红烛",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_撩人.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 红烛. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_周到.png",
+    "desc": "酒壶",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_周到.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 酒壶. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_临水歌台.png",
+    "desc": "水边小戏台",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_临水歌台.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 水边小戏台. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_藏谱阁.png",
+    "desc": "收藏琴谱的小阁楼",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_藏谱阁.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 收藏琴谱的小阁楼. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_精膳房.png",
+    "desc": "古代厨房灶台",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_精膳房.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 古代厨房灶台. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_夜雨小园.png",
+    "desc": "雨中园林亭子",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_夜雨小园.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 雨中园林亭子. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_车马院.png",
+    "desc": "马车庭院",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_车马院.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 马车庭院. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_账房.png",
+    "desc": "算盘与无字账册",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_账房.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 算盘与无字账册. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_暖阁.png",
+    "desc": "暖炉和帘帐小阁",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_暖阁.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 暖炉和帘帐小阁. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_香料房.png",
+    "desc": "香料罐与香炉",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_香料房.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 香料罐与香炉. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_古琴.png",
+    "desc": "七弦古琴",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_古琴.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 七弦古琴. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_霓裳.png",
+    "desc": "华美古代舞裙",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_霓裳.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 华美古代舞裙. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_沉水香.png",
+    "desc": "沉香木和香烟",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_沉水香.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 沉香木和香烟. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_名帖.png",
+    "desc": "金边空白名帖",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_名帖.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 金边空白名帖. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_前朝诗稿.png",
+    "desc": "古旧卷纸，无文字",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_前朝诗稿.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 古旧卷纸，无文字. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_胭脂.png",
+    "desc": "打开的红胭脂盒",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_胭脂.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 打开的红胭脂盒. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_玉佩.png",
+    "desc": "雕花玉佩",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_玉佩.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 雕花玉佩. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_屏风.png",
+    "desc": "花鸟屏风",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_屏风.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 花鸟屏风. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_女儿红.png",
+    "desc": "无字酒坛",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_女儿红.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 无字酒坛. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_宫灯.png",
+    "desc": "精美宫灯",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_宫灯.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 精美宫灯. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_绣鞋.png",
+    "desc": "成双绣鞋",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_绣鞋.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 成双绣鞋. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_玉箫.png",
+    "desc": "玉箫",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_玉箫.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 玉箫. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_楼里.png",
+    "desc": "灯笼",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_楼里.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 灯笼. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_排场子.png",
+    "desc": "戏台",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_排场子.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 戏台. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_人.png",
+    "desc": "团扇",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_人.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 团扇. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_客人.png",
+    "desc": "酒杯",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_客人.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 酒杯. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_添东西.png",
+    "desc": "房子",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_添东西.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 房子. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "图标_风月谱.png",
+    "desc": "线装书无字封面",
+    "w": 512,
+    "h": 512,
+    "kind": "icon",
+    "prompt": "Generate ONE production game art PNG asset 图标_风月谱.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 线装书无字封面. 1:1 single isolated icon, elegant hand-painted thin gold outline with minimal teal/vermilion fill, clearly readable at small scale on dark UI, centered 12% padding, no enclosing tile. TRUE TRANSPARENT BACKGROUND, no painted checkerboard, no text, no watermark."
+  },
+  {
+    "name": "ui_按钮_普通.png",
+    "desc": "描金黑底长条普通按钮，中间留空无字，透明外缘",
+    "w": 600,
+    "h": 180,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_按钮_普通.png, canvas 600x180. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 描金黑底长条普通按钮，中间留空无字，透明外缘. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_按钮_按下.png",
+    "desc": "描金黑底长条按下按钮，内凹暗金边，中间留空无字，透明外缘",
+    "w": 600,
+    "h": 180,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_按钮_按下.png, canvas 600x180. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 描金黑底长条按下按钮，内凹暗金边，中间留空无字，透明外缘. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_按钮_主要.png",
+    "desc": "描金朱红底长条主要按钮，中间留空无字，透明外缘",
+    "w": 600,
+    "h": 180,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_按钮_主要.png, canvas 600x180. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 描金朱红底长条主要按钮，中间留空无字，透明外缘. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_面板底纹_宣纸.png",
+    "desc": "可无缝平铺旧宣纸纹理，浅米色，均匀细微纸纤维，无边框物体，不透明",
+    "w": 1024,
+    "h": 1024,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_面板底纹_宣纸.png, canvas 1024x1024. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 可无缝平铺旧宣纸纹理，浅米色，均匀细微纸纤维，无边框物体，不透明. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_面板底纹_深绢.png",
+    "desc": "可无缝平铺深青绿绢布纹理，均匀细致织物，无边框物体，不透明",
+    "w": 1024,
+    "h": 1024,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_面板底纹_深绢.png, canvas 1024x1024. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 可无缝平铺深青绿绢布纹理，均匀细致织物，无边框物体，不透明. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_卷轴边框.png",
+    "desc": "竖卷轴金色边框和上下卷轴，中间完全透明留空",
+    "w": 1200,
+    "h": 1600,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_卷轴边框.png, canvas 1200x1600. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 竖卷轴金色边框和上下卷轴，中间完全透明留空. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_评分印章_S.png",
+    "desc": "朱红方形印章，只含一个大写拉丁字母 S，篆刻质感，字母准确清楚，无其他字，印章外透明",
+    "w": 512,
+    "h": 512,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_评分印章_S.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 朱红方形印章，只含一个大写拉丁字母 S，篆刻质感，字母准确清楚，无其他字，印章外透明. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_评分印章_A.png",
+    "desc": "朱红方形印章，只含一个大写拉丁字母 A，篆刻质感，字母准确清楚，无其他字，印章外透明",
+    "w": 512,
+    "h": 512,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_评分印章_A.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 朱红方形印章，只含一个大写拉丁字母 A，篆刻质感，字母准确清楚，无其他字，印章外透明. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_评分印章_B.png",
+    "desc": "朱红方形印章，只含一个大写拉丁字母 B，篆刻质感，字母准确清楚，无其他字，印章外透明",
+    "w": 512,
+    "h": 512,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_评分印章_B.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 朱红方形印章，只含一个大写拉丁字母 B，篆刻质感，字母准确清楚，无其他字，印章外透明. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_评分印章_C.png",
+    "desc": "朱红方形印章，只含一个大写拉丁字母 C，篆刻质感，字母准确清楚，无其他字，印章外透明",
+    "w": 512,
+    "h": 512,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_评分印章_C.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 朱红方形印章，只含一个大写拉丁字母 C，篆刻质感，字母准确清楚，无其他字，印章外透明. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_评分印章_D.png",
+    "desc": "朱红方形印章，只含一个大写拉丁字母 D，篆刻质感，字母准确清楚，无其他字，印章外透明",
+    "w": 512,
+    "h": 512,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_评分印章_D.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 朱红方形印章，只含一个大写拉丁字母 D，篆刻质感，字母准确清楚，无其他字，印章外透明. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  },
+  {
+    "name": "ui_花魁牌.png",
+    "desc": "描金牌子，准确写两个汉字“花魁”，仅此二字，朱红底金字，牌子外透明",
+    "w": 512,
+    "h": 512,
+    "kind": "ui",
+    "prompt": "Generate ONE production game art PNG asset ui_花魁牌.png, canvas 512x512. 古风写实厚涂插画，中国宋代江南水阁，暖黄灯笼光，青绿+朱红+鎏金配色，细腻纹样，电影感光影。 Subject: 描金牌子，准确写两个汉字“花魁”，仅此二字，朱红底金字，牌子外透明. Game interface asset, crisp elegant usable border/texture, no mockup or surrounding scene. Preserve requested transparency and blank space. No additional lettering except explicitly requested characters. No watermark."
+  }
+]

@@ -8,6 +8,13 @@
 
 [https://lynch715.github.io/tingyu-house-simulator/](https://lynch715.github.io/tingyu-house-simulator/)
 
+## 开发
+
+- `index.html` 单文件，脚本分五段：数据表 / 核心 / 每旬推进 / 玩家操作 / 界面。改哪段就在哪段改，不要再叠 `xxx=function(){}` 补丁。
+- `设计/V2施工规范.md` 是玩法与文案规矩，`设计/美术出图规范.md` 是出图清单。
+- `node tests/engine.test.mjs` 冒烟测试；`node tests/sim.mjs smart 8 6` 机器人跑八年看平衡；`node tests/浏览器审计.mjs` 用 Playwright 过一遍所有界面（`?audit=视图名` 可以手动打开任意界面）。
+- `index.V1备份.html` 是重写前的最后一版。
+
 ## 游戏特色
 
 - 排节目、选阵容、按旬推进并处理随机事件
